@@ -45,120 +45,111 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(74, 29);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(106, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 15);
+            this.label1.Size = new System.Drawing.Size(106, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Arrival date:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtArrivalDate
             // 
-            this.txtArrivalDate.Location = new System.Drawing.Point(166, 28);
-            this.txtArrivalDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtArrivalDate.Location = new System.Drawing.Point(237, 47);
             this.txtArrivalDate.Name = "txtArrivalDate";
-            this.txtArrivalDate.Size = new System.Drawing.Size(106, 23);
+            this.txtArrivalDate.Size = new System.Drawing.Size(150, 31);
             this.txtArrivalDate.TabIndex = 1;
+            this.txtArrivalDate.Tag = "Arrival date";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(54, 59);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(77, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 15);
+            this.label2.Size = new System.Drawing.Size(135, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Departure date:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtDepartureDate
             // 
-            this.txtDepartureDate.Location = new System.Drawing.Point(166, 57);
-            this.txtDepartureDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDepartureDate.Location = new System.Drawing.Point(237, 95);
             this.txtDepartureDate.Name = "txtDepartureDate";
-            this.txtDepartureDate.Size = new System.Drawing.Size(106, 23);
+            this.txtDepartureDate.Size = new System.Drawing.Size(150, 31);
             this.txtDepartureDate.TabIndex = 2;
+            this.txtDepartureDate.Tag = "Departure date";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(38, 88);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(54, 147);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 15);
+            this.label3.Size = new System.Drawing.Size(157, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "Number of nights:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtNights
             // 
-            this.txtNights.Location = new System.Drawing.Point(166, 86);
-            this.txtNights.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNights.Location = new System.Drawing.Point(237, 143);
             this.txtNights.Name = "txtNights";
             this.txtNights.ReadOnly = true;
-            this.txtNights.Size = new System.Drawing.Size(106, 23);
+            this.txtNights.Size = new System.Drawing.Size(150, 31);
             this.txtNights.TabIndex = 5;
             this.txtNights.TabStop = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(81, 118);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(116, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 15);
+            this.label4.Size = new System.Drawing.Size(96, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Total price:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtTotalPrice
             // 
-            this.txtTotalPrice.Location = new System.Drawing.Point(166, 116);
-            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTotalPrice.Location = new System.Drawing.Point(237, 193);
             this.txtTotalPrice.Name = "txtTotalPrice";
             this.txtTotalPrice.ReadOnly = true;
-            this.txtTotalPrice.Size = new System.Drawing.Size(106, 23);
+            this.txtTotalPrice.Size = new System.Drawing.Size(150, 31);
             this.txtTotalPrice.TabIndex = 7;
             this.txtTotalPrice.TabStop = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(28, 147);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(40, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 15);
+            this.label5.Size = new System.Drawing.Size(172, 25);
             this.label5.TabIndex = 8;
             this.label5.Text = "Avg. price per night:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtAvgPrice
             // 
-            this.txtAvgPrice.Location = new System.Drawing.Point(166, 145);
-            this.txtAvgPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAvgPrice.Location = new System.Drawing.Point(237, 242);
             this.txtAvgPrice.Name = "txtAvgPrice";
             this.txtAvgPrice.ReadOnly = true;
-            this.txtAvgPrice.Size = new System.Drawing.Size(106, 23);
+            this.txtAvgPrice.Size = new System.Drawing.Size(150, 31);
             this.txtAvgPrice.TabIndex = 9;
             this.txtAvgPrice.TabStop = false;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(51, 192);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCalculate.Location = new System.Drawing.Point(73, 320);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(78, 25);
+            this.btnCalculate.Size = new System.Drawing.Size(111, 42);
             this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(166, 192);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Location = new System.Drawing.Point(237, 320);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(78, 25);
+            this.btnExit.Size = new System.Drawing.Size(111, 42);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -167,10 +158,10 @@
             // Form1
             // 
             this.AcceptButton = this.btnCalculate;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(312, 238);
+            this.ClientSize = new System.Drawing.Size(446, 397);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtAvgPrice);
@@ -183,10 +174,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtArrivalDate);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reservations";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
